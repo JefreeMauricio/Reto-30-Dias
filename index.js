@@ -1,3 +1,4 @@
-let numero = 23;
+// Funcion para calcular el total de una cuenta con propina
+const calcularTotalConPropina = (cuenta, porcentaje) => cuenta + (cuenta * porcentaje / 100);
 
-console.log(numero % 2 === 0 ? "Par" : "Impar");
+console.log(calcularTotalConPropina(50000, 10)); // 55000
